@@ -1,0 +1,33 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Colorful circular graphic (XGODO's actual logo style) -->
+  <circle cx="20" cy="20" r="16" fill="url(#gradient1)"/>
+  <circle cx="20" cy="20" r="12" fill="url(#gradient2)"/>
+  <circle cx="20" cy="20" r="8" fill="url(#gradient3)"/>
+  
+  <!-- Abstract X/swirl pattern -->
+  <path d="M12 12L28 28M28 12L12 28" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M16 16L24 24M24 16L16 24" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- XGODO text -->
+  <text x="42" y="26" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#1f2937">XGODO</text>
+  
+  <!-- Gradient definitions for the colorful logo -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+</svg> 
